@@ -1,0 +1,60 @@
+@import url("variables.css");
+
+.contact{
+    background: var(--light-gray);
+
+}
+.contact .contact_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contact_container{
+    padding: 4rem auto;
+    /* margin: 4rem 0; */
+}
+form{
+    width: 70%;
+    margin: auto;
+    border:2px solid var(--secondary);
+    padding: 2rem;
+    background: white;
+}
+form input{
+    width: 100%;
+    padding: .2rem;
+    border-radius: .4rem;
+    /* background: yellow; */
+    color: #d8d5d5;
+}
+form input, form textarea{
+    border:1px solid #d8d5d5 !important;
+    font-size: 1.8rem !important;
+
+}
+form .inputs{
+   /* display: flex; */
+   /* justify-content: space-between; */
+   
+}
+
+/* form .input1{
+    margin-right: 2.2rem;
+}
+form .input2{
+    margin-left: 2rem;
+} */
+.social_accounts{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_accounts a svg, .social_accounts a i{
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: var(--secondary);
+}
+.social_accounts a i{
+    font-size: 2.8rem;
+}

@@ -1,0 +1,166 @@
+@import url(variables.css);
+
+.resume {
+  height: 75vh;
+  overflow-y: auto;
+  padding:1.2rem;
+
+}
+
+.resume .card {
+    margin: 2rem;
+    border:none
+    
+}
+.resume .card .h4
+.resume .education, .resume .experiece{
+  margin: 2rem;
+}
+.resume .skills_card .card-title{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.resume .skills_card .card-title h6{
+  margin-left: 1rem;
+}
+.resume .skills_card img{
+  width: 5rem;
+}
+.resume .tech_skills{
+  margin: 1rem;
+}
+.resume .tech_skills li{
+  font-size: 1.7rem;
+  margin: .6rem auto;
+}
+.resume .tech_skills li span{
+  font-weight: 600;
+  color: var(--secondary);
+}
+.resume .d-flex{
+  /* justify-content: center; */
+  align-items: center;
+  /* background: chartreuse; */
+}
+.resume .d-flex img{
+  width: 4rem;
+}
+
+.techo_container{
+  margin: 3rem auto 7rem auto !important;
+  /* background: green; */
+}
+.slider{
+  margin: 3rem auto 4rem auto;
+}
+.slider img{
+  width: 5rem;
+}
+.slider .slideItem{
+  /* background: green; */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 2rem;
+  /* margin: 2rem; */
+  /* text-align: center; */
+}
+
+
+.timeline {
+  position: relative;
+  margin: 50px 0;
+  background-size: cover;
+}
+.timline .head-style{
+    width: 100px;
+    margin: auto;
+}
+.time-line {
+  position: relative;
+  margin: 4rem 0 2rem 0;
+}
+.timline .time-line::before {
+  content: "";
+  position: absolute;
+  width: 0.4rem;
+  height: 100%;
+  background: tomato;
+  left: 50%;
+  top:0;
+  bottom: 0;
+}
+.time-line ul {
+  margin: 0;
+  position: relative;
+}
+.time-line ul li {
+  list-style: none;
+  background: #fafaf4;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 0px 2px 1px rgba(138, 137, 137, 0.5);
+  position: relative;
+}
+.time-line ul li:nth-child(odd) {
+  float: left;
+  text-align: left;
+  clear: both;
+}
+.time-line ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.time-line ul li p {
+  margin: 10px;
+}
+.timeline-content {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #eee;
+  text-align: justify;
+  background-color: white;
+}
+.timespan {
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.2rem 1rem;
+  background:var(--p-dark);
+  color: white;
+  box-shadow: 0 0 3px var(--secondary);
+}
+
+@media (max-width: 1000px) {
+  .time-line ul li {
+    width: 100%;
+  margin: 2rem auto;
+
+  }
+  .time-line ul li:nth-child(odd) {
+    float: none;
+    text-align: left;
+    clear: none;
+    /* border-right: 2px solid --primary; */
+  }
+  .time-line ul li:nth-child(even) {
+    float: none;
+    text-align: left;
+    clear: none;
+    /* border-left: 2px solid --primary; */
+  }
+  .timespan {
+    position: relative;
+  }
+  .time1 {
+    left: 0%;
+    top: 35%;
+  }
+  .time {
+    top: 30%;
+    right: 00%;
+  }
+}
